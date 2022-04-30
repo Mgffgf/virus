@@ -60,7 +60,17 @@ async def start_(client: Client, message: Message):
 😎| ** اتبع مايلي لمعرفه كيفيه الاستخدام **
 ❓| ** اضغط علي ذر طريقه الاستخدام **
 🌐 ** الحساب المساعد  @{ASSISTANT_NAME} **
-◍مـبــرمـج السـورس◍ **[✯𝐌𝐒✯ 𝒗𝒊𝒓𝒖𝒔┋✘🇨🇦!](https://t.me/FLASH_MASR) **
+◍صـاحـب السـورس◍ **[✯𝐌𝐒✯ 𝒗𝒊𝒓𝒖𝒔┋✘🇨🇦!](https://t.me/FLASH_MASR) **
+━━━━━━━━🍁━━━━━━━━
+لـلـتـصـيب راسـل👇
+
+صـاحـب الـسـورس @FLASH_MASR🚀
+ 
+مـطـور الـسـورس @J3_X3 🚀
+
+مـبـرمـج الـسـورس @H_OS_S_AM 🚀
+
+لـو مـحـظـور @UG5_BOT 🚀
 """,
         reply_markup=InlineKeyboardMarkup(
             [
