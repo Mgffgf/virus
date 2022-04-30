@@ -62,33 +62,24 @@ async def start_(client: Client, message: Message):
 🌐 ** الحساب المساعد  @{ASSISTANT_NAME} **
 ◍صـاحـب السـورس◍ **[✯𝐌𝐒✯ 𝒗𝒊𝒓𝒖𝒔┋✘🇨🇦!](https://t.me/FLASH_MASR) **
 ━━━━━━━━🍁━━━━━━━━
-لـلـتـصـيب راسـل👇
-
-صـاحـب الـسـورس @FLASH_MASR🚀
- 
-مـطـور الـسـورس @J3_X3 🚀
-
-مـبـرمـج الـسـورس @H_OS_S_AM 🚀
-
-لـو مـحـظـور @UG5_BOT 🚀
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✅اضغط لأضافه البوت لمجموعتك✅",
+                        "✅اضاف البوت لمجموعتك",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("🔮طــريــقــة الاســتخــدام🔮", callback_data="cbhowtouse")],
-                [InlineKeyboardButton("🌀الاوامــر الكامله المعربــه🌀", callback_data="cbvamp")],                 
+                [InlineKeyboardButton("<<طــريــقــة الاســتخــدام>>", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("<<الاوامــر الكامله المعربــه>>", callback_data="cbvamp")],                 
                 [
-                    InlineKeyboardButton("🎮الاوامــــر🎮", callback_data="cbcmds"),
-                    InlineKeyboardButton("👨🏼‍💻الــمــطــور👨🏼‍💻", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("<<الاوامــــر>>", callback_data="cbcmds"),
+                    InlineKeyboardButton("<<الــمطــور>>", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎙جــروب الــدعـم🎙", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "<<جــروب الــدعـم>>", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
                         "𝗦𝗢𝗨𝗥𝗖𝗘 𝗠𝗔𝗘𝗦𝗧𝗥𝗢┋✘🇨🇦!", url=f"https://t.me/APP_YOUTUBE"
