@@ -107,7 +107,7 @@ async def alive(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✯𝐌𝐒✯ 𝒅𝒆𝒔𝒉𝒂┋✘🇨🇦!,
+                        "✯𝐌𝐒✯ 𝒅𝒆𝒔𝒉𝒂┋✘🇨🇦!",
                         url=f"https://t.me/J3_X3",
                     )
                 ],
